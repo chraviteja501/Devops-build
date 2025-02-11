@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    image: devops-build:latest
+    build: .
+    ports:
+      - "80:80"
